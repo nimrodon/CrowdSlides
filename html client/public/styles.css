@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 80vh;
+    background-color: #f4f4f4;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5vh;
+}
+
+#frame {
+    margin: 1vw;
+    border: 5px solid green;
+    height: calc(100% - 60px);
+    width:  calc(100% - 60px);
+    box-sizing: border-box;
+    background-image: url("client_background.jpg");
+    border-radius: 8px;
+}
+
+.intro-spacer {
+      height: 10vh
+}
+
+h1 {
+    font-size: 8vw;
+    margin: 0 6vw;
+    padding: 0;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin: 1vh 0;
+}
+
+.general-text {
+    font-size: 6vw;
+    line-height: 1.5;
+    text-align: center;
+    color: #666;
+    margin: 0 6vw;
+}
+
+.ending {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+    margin: 6vh 6vw;
+}
+
+.selection-button {
+    font-size: 1.25rem;
+    background-color: #d0e0ff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #000000;
+    width: 60%;
+    border-radius: 8px;
+}
+
+
+.selection-button.selected {
+    border: 2px solid #000000;
+    background-color: #FFA500;
+    color: #002330;
+}
+
+
+.selection-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    border: 2px solid #aaaaaa;
+    color: #888888;
+}
+
+
+.selection-button.selected:disabled {
+    border: 2px solid #000000;
+    background-color: #FFA500;
+    cursor: not-allowed;
+    color: #000000;
+}
+
+
+.vote-submitted-message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}

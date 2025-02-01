@@ -1,0 +1,91 @@
+{
+    "slides": [
+        {
+            "type": "intro",
+            "id": "intro",
+            "backgroundImage": "empty_text_slide.webp",
+            "titleText": "My Interactive story",
+            "inviteText": "Scan to join",
+            "QRCodeImage": "qr_code.png",
+            "sound": "intro_sound.mp3"
+        },
+        {
+            "type": "story",
+            "id": "story_slide",
+            "text": "Once upon a time, there was a fox.",
+            "backgroundUnderText": true,
+            "textYPos": 180,
+            "backgroundImage": "start_background.webp",
+            "sound": "story_sound.mp3"
+        },
+        {
+            "type": "story",
+            "id": "video_slide",
+            "video": "my_video.mp4",
+            "text": "This text is over the video",
+            "backgroundUnderText": true,
+            "textYPos": 700
+        },
+        {
+            "type": "selection",
+            "id": "the_dilemma",
+            "backgroundImage": "dilemma.webp",
+            "text": "which door should I open?",
+            "backgroundUnderText": true,
+            "clientText": "Choose door:",
+            "selectionDuration": 15,
+            "options": [
+                {
+                    "text": "Left door",
+                    "nextSlideId": "left_door"
+                },
+                {
+                    "text": "Right door",
+                    "nextSlideId": "right_door"
+                }
+            ],
+            "stopAllSounds": true
+        },
+        {
+            "type": "ending",
+            "id": "ending",
+            "backgroundImage": "ending_background.webp"
+        }
+    ],
+    "settings": {
+        "startSlideId": "story_slide_3",
+        "isRTL": false,
+        "primaryColor": "#4d3d00",
+        "backgroundColor": "#f2e5b5",
+        "panelBackgroundColor": "#f2e5b5",
+        "regularFontName": "Futura-Regular.ttf",
+        "boldFontName": "Futura-Bold.ttf",
+        "theEndText": "The End",
+        "numOfUsersText": "Connected Users:",
+        "selectionSettings": {
+            "preparePromptText": "Prepare to vote:",
+            "votePromptText": "Vote now:",
+            "announcementText": "You chose:",
+            "tieAnnouncementText": "A tie!",
+            "tieOperatorChooseText": "The operator will choose.",
+            "orText": "or",
+            "timerText": "Time left:",
+            "votingDiagramColors": [
+                "#c94604",
+                "#fafa05"
+            ],
+            "presentationSound": {
+                "filename": "selection_presentation.mp3",
+                "volume": 0.7
+            },
+            "votingSound": {
+                "filename": "selection_voting.mp3",
+                "volume": 0.8
+            },
+            "resultsSound": {
+                "filename": "selection_results.mp3",
+                "volume": 1
+            }
+        }
+    }
+}

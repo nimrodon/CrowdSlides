@@ -1,0 +1,294 @@
+{
+    "slides": [
+        {
+            "type": "intro",
+            "id": "intro",
+            "backgroundImage": "empty_text_slide.webp",
+            "titleText": "Honeylocks and the three bears - an interactive story",
+            "inviteText": "Scan to join",
+            "QRCodeImage": "qr_code.png"
+        },
+        {
+            "type": "story",
+            "id": "story_start",
+            "text": "Once upon a time, Honeylocks wandered through a sunny forest.\nBirds sang, leaves rustled, and her heart sparkled with joy\nas she strolled along the mossy path.",
+            "backgroundUnderText": true,
+            "backgroundImage": "start_forest.webp",
+            "textYPos": 180
+        },
+        {
+            "type": "story",
+            "id": "finds_house",
+            "text": "After walking a bit, Honeylocks stumbled upon a small house nestled among the trees.\nHer curiosity sparkled, and without hesitation, she decided to step inside.",
+            "backgroundUnderText": true,
+            "backgroundImage": "finds_house.webp",
+            "textYPos": 180
+        },
+        {
+            "type": "story",
+            "id": "arrive_house",
+            "text": "Inside the house, Honeylocks saw a few chairs neatly arranged. Feeling a bit tired from her walk,\nshe thought, Which chair should I sit on? She looked around, pondering her choice...",
+            "backgroundUnderText": true,
+            "backgroundImage": "chair_dilemma.webp",
+            "textYPos": 950
+        },
+        {
+            "type": "selection",
+            "id": "chair_dilemma",
+            "backgroundImage": "chair_dilemma.webp",
+            "text": "On which chair should Honeylocks sit?",
+            "backgroundUnderText": true,
+            "clientText": "Choose chair:",
+            "selectionDuration": 15,
+            "options": [
+                {
+                    "text": "Small chair",
+                    "nextSlideId": "chair_broken"
+                },
+                {
+                    "text": "Big chair",
+                    "nextSlideId": "chair_good"
+                }
+            ],
+            "stopAllSounds": true
+        },
+        {
+            "type": "story",
+            "id": "chair_good",
+            "text": "Honeylocks sat on the bigger chair, and to her delight, it fit perfectly, as if made for her.\nShe smiled, happy to rest after her walk through the forest.",
+            "backgroundUnderText": true,
+            "backgroundImage": "chair_good.webp",
+            "textYPos": 920
+        },
+        {
+            "type": "story",
+            "id": "bowls",
+            "text": "After a little rest, Honeylocks’s eyes sparkled as she spotted three bowls of soup on the table.\nHer stomach growled after the long walk, but she paused and wondered, Which bowl should I choose?",
+            "backgroundUnderText": true,
+            "backgroundImage": "bowl_dilemma.webp",
+            "textYPos": 880
+        },
+        {
+            "type": "selection",
+            "id": "bowl_dilemma",
+            "backgroundImage": "bowl_dilemma.webp",
+            "text": "Which bowl should Honeylocks eat from?",
+            "backgroundUnderText": true,
+            "clientText": "Choose bowl:",
+            "selectionDuration": 15,
+            "options": [
+                {
+                    "text": "Small bowl",
+                    "nextSlideId": "bowl_good"
+                },
+                {
+                    "text": "Big bowl",
+                    "nextSlideId": "bowl_messy"
+                }
+            ],
+            "stopAllSounds": true
+        },
+        {
+            "type": "story",
+            "id": "bowl_messy",
+            "text": "Honeylocks ate from the big bowl, savoring the delicious soup.\nBut the bowl was too big to handle, and soon the table was a messy disaster.\nShe needed something to clean up everything.",
+            "backgroundUnderText": true,
+            "backgroundImage": "bowl_messy.webp",
+            "textYPos": 850
+        },
+        {
+            "type": "story",
+            "id": "cupboard_skeleton",
+            "text": "While searching for a towel or cloth, Honeylocks opened the kitchen cupboard—and froze in fear.\nInside, hidden in the shadows, was the skeleton of a bear.",
+            "backgroundUnderText": true,
+            "backgroundImage": "cupboard_skeleton.webp",
+            "textYPos": 180
+        },
+        {
+            "type": "story",
+            "id": "run_from_house_cupboard_skeleton",
+            "text": "Honeylocks ran outside in a panic, her heart racing.\nShe had never seen a dead bear before—only the sweet, friendly ones from her storybooks.",
+            "backgroundUnderText": true,
+            "backgroundImage": "escaping_house.webp",
+            "nextSlideId": "karateka_guy",
+            "textYPos": 140
+        },
+        {
+            "type": "story",
+            "id": "bowl_good",
+            "text": "Honeylocks ate from the small bowl, and the soup was so delicious it made her heart sing.\nSoon, she began to feel sleepy and started looking around for a cozy place to lie down.",
+            "backgroundUnderText": true,
+            "backgroundImage": "bowl_good.webp",
+            "textYPos": 130
+        },
+        {
+            "type": "story",
+            "id": "beds",
+            "text": "Suddenly, Honeylocks spotted two beds: one big and one small.\nThe small bed looked cozy and snug, while the big bed seemed perfect for stretching out her tired body.\nShe tilted her head and wondered, Which bed should I choose to rest my head?",
+            "backgroundUnderText": true,
+            "backgroundImage": "bed_dilemma.webp",
+            "textYPos": 180
+        },
+        {
+            "type": "selection",
+            "id": "bed_dilemma",
+            "backgroundImage": "bed_dilemma.webp",
+            "text": "Which bed should Honeylocks choose?",
+            "backgroundUnderText": true,
+            "clientText": "Choose bed:",
+            "selectionDuration": 15,
+            "options": [
+                {
+                    "text": "Big bed",
+                    "nextSlideId": "bed_good"
+                },
+                {
+                    "text": "Small bed",
+                    "nextSlideId": "bed_ants"
+                }
+            ],
+            "stopAllSounds": true
+        },
+        {
+            "type": "story",
+            "id": "bed_good",
+            "text": "Honeylocks climbed into the big bed, sinking into its soft, comforting embrace.\nIt was so cozy that she immediately drifted off to sleep.",
+            "backgroundUnderText": true,
+            "backgroundImage": "bed_good.webp",
+            "textYPos": 180
+        },
+        {
+            "type": "story",
+            "id": "bed_late",
+            "text": "After a couple of hours, Honeylocks suddenly opened her eyes, realizing the sun had shifted in the sky.\nHer heart raced as she remembered—Oh no! I’m late for my yoga class!",
+            "backgroundUnderText": true,
+            "backgroundImage": "bed_late.webp",
+            "textYPos": 130
+        },
+        {
+            "type": "story",
+            "id": "run_from_house_yoga",
+            "text": "Honeylocks dashed out of the house, her heart pounding as she hurried through the forest,\nhoping she could still make it to her yoga class on time.",
+            "backgroundUnderText": true,
+            "backgroundImage": "escaping_house.webp",
+            "nextSlideId": "karateka_guy",
+            "textYPos": 140
+        },
+        {
+            "type": "story",
+            "id": "bed_ants",
+            "backgroundImage": "bed_ants.webp",
+            "text": "Honeylocks climbed into the small bed, hoping for a cozy rest. But suddenly, to her shock,\ncountless ants began crawling all over the bed and around her.\nShe sat frozen, unable to move, wishing they would magically disappear.",
+            "backgroundUnderText": true,
+            "textYPos": 800
+        },
+        {
+            "type": "story",
+            "id": "skeleton_with_ants",
+            "backgroundImage": "skeleton_with_ants.webp",
+            "text": "But they didn’t. By morning, all that was left were the remains of poor Honeylocks,\na chilling reminder of the dangers lurking within the forest.",
+            "backgroundUnderText": true,
+            "nextSlideId": "ending",
+            "textYPos": 900
+        },
+        {
+            "type": "story",
+            "id": "chair_broken",
+            "backgroundImage": "broken_chair.webp",
+            "text": "Honeylocks sat on the small chair, but it suddenly broke beneath her. She felt so ashamed,\nher cheeks turning red as she looked at the pieces. She didn’t know whether to run away or try to fix the chair.",
+            "backgroundUnderText": true,
+            "textYPos": 130
+        },
+        {
+            "type": "selection",
+            "id": "chair_broken_dilemma",
+            "backgroundImage": "broken_chair.webp",
+            "text": "what should Honeylocks do?",
+            "backgroundUnderText": true,
+            "clientText": "Choose Action:",
+            "selectionDuration": 15,
+            "options": [
+                {
+                    "text": "Run away",
+                    "nextSlideId": "run_from_house_broken_chair"
+                },
+                {
+                    "text": "Fix chair",
+                    "nextSlideId": "call_carpenter"
+                }
+            ],
+            "stopAllSounds": true
+        },
+        {
+            "type": "story",
+            "id": "run_from_house_broken_chair",
+            "backgroundImage": "escaping_house.webp",
+            "text": "Honeylocks ran outside as quickly as she could, her heart heavy with shame.\nShe felt so embarrassed, but more than anything, she didn’t want anyone to blame her for breaking the chair.",
+            "backgroundUnderText": true,
+            "nextSlideId": "karateka_guy",
+            "textYPos": 140
+        },
+        {
+            "type": "story",
+            "id": "call_carpenter",
+            "backgroundImage": "call_carpenter.webp",
+            "text": "Honeylocks knew that the right thing to do was to fix the chair.\nBut being just a little girl with no knowledge of fixing chairs, she decided to call the carpenter for help.",
+            "backgroundUnderText": true,
+            "textYPos": 900
+        },
+        {
+            "type": "story",
+            "id": "carpenter_working",
+            "backgroundImage": "carpenter_working.webp",
+            "text": "The carpenter arrived and began fixing the chair with steady hands. Honeylocks watched him work curiously,\nfascinated by his skill. As she observed him, a strange feeling crept over her - he reminded her of someone from the past,\nthough she couldn’t quite figure out who...",
+            "backgroundUnderText": true,
+            "textYPos": 950
+        },
+        {
+            "type": "story",
+            "id": "grandfather_reunite",
+            "backgroundImage": "grandfather_reunite.webp",
+            "text": "Suddenly, she realized—it was her long-lost grandfather who had disappeared years ago.\nOverwhelmed with emotion, she reached out and hugged him tightly.\n\"Honeylocks?\" he asked, full of surprise. Tears of joy filled their eyes as they embraced, reunited at last.",
+            "backgroundUnderText": true,
+            "textYPos": 900,
+            "nextSlideId": "ending"
+        },
+        {
+            "type": "story",
+            "id": "karateka_guy",
+            "backgroundImage": "karateka_guy.webp",
+            "text": "Unfortunately, as Honeylocks sprinted through the forest,\nshe suddenly found herself running right toward a fierce warrior from the Karateka video game.\nIf only she had walked instead of running...",
+            "backgroundUnderText": true,
+            "textYPos": 800
+        },
+        {
+            "type": "ending",
+            "id": "ending",
+            "backgroundImage": "title_frame.webp",
+            "text": ""
+        }
+    ],
+    "settings": {
+        "primaryColor": "#4d3d00",
+        "panelBackgroundColor": "#f2e5b5",
+        "regularFontName": "Charm-Regular.ttf",
+        "boldFontName": "Charm-Bold.ttf",
+        "selectionSettings": {
+            "votingDiagramColors": [
+                      "#c94604",
+                      "#fafa05"],
+            "presentationSound": {
+                "filename": "",
+                "volume": 1
+            },
+            "votingSound": {
+                "filename": "",
+                "volume": 1
+            },
+            "resultsSound":  {
+                "filename": "",
+                "volume": 1
+            }
+        }
+    }
+}
