@@ -19,8 +19,8 @@ struct crowdSlidesApp: App {
             SlideshowView()
                 .environmentObject(sharedDBService)
                 .environmentObject(slideshowDataService)
+                .frame(width: 1920, height: 1080)
         }
-        .defaultSize(width: 1920, height: 1080)
     }
 
     
