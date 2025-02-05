@@ -2,6 +2,9 @@
 
 **Crowd Slides** is a crowd-interactive slideshow system designed for mass audiences watching a shared screen, often in settings like theaters, conferences, or live events. It allows presenters to create rich media slideshows with multiple narratives, dynamically influenced by the audience using their mobile devices.
 
+## Screenshot  
+
+![Crowd Slides Screenshot](screenshot.jpg)  
 
 ## Features
 - **MacOS Master Client** – Runs the slideshow displayed on a shared screen for the audience and is controlled by an operator.  
