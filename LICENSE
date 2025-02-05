@@ -1,21 +1,21 @@
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/.
 
-### Attribution Requirement
+Attribution Requirement:
 If you use, modify, or share this project (or any part of it), you must provide proper credit by including:
 
-1. The original project name: **Crowd Slides** (unless the work has been significantly modified).
-2. The original author's name: **Nimrod Yizhar**.
-3. A link to this repository: **https://github.com/nimrodon/CrowdSlides**
+1. The original project name: Crowd Slides (unless the work has been significantly modified).
+2. The original author's name: Nimrod Yizhar.
+3. A link to this repository: https://github.com/nimrodon/CrowdSlides
 
-### Example Attributions:
+Example Attributions:
 
-- **For using the project as-is or with minimal modifications:**
-  _"Based on Crowd Slides, created by Nimrod Yizhar, licensed under CC BY-NC 4.0. See https://github.com/nimrodon/CrowdSlides for details."_
+- For using the project as-is or with minimal modifications:
+  "Based on Crowd Slides, created by Nimrod Yizhar, licensed under CC BY-NC 4.0. See https://github.com/nimrodon/CrowdSlides for details."
 
-- **For using parts of the project (code, assets, or concepts) in another work:**
-  _"Includes code/design elements from Crowd Slides by Nimrod Yizhar, licensed under CC BY-NC 4.0. Original project at https://github.com/nimrodon/CrowdSlides."_
+- For using parts of the project (code, assets, or concepts) in another work:
+  "Includes code/design elements from Crowd Slides by Nimrod Yizhar, licensed under CC BY-NC 4.0. Original project at https://github.com/nimrodon/CrowdSlides."
 
-🚫 **Commercial use is strictly prohibited** without explicit permission.
+🚫 Commercial use is strictly prohibited without explicit permission.
 
-📩 **For commercial use inquiries, please contact nyizhar@gmail.com.**
+📩 For commercial use inquiries, please contact nyizhar@gmail.com.

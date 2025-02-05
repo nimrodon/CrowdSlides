@@ -11,6 +11,7 @@
 - **Live Voting Display** – Real-time voting results are shown on the main screen, enhancing audience engagement.  
 - **Operator-Controlled Slideshow** – The operator navigates through slides, moves forward or backward, and resolves tie votes when needed.  
 
+
 ## Use Cases  
 
 Crowd Slides can be used in various scenarios where audience participation enhances the experience:  
@@ -20,6 +21,7 @@ Crowd Slides can be used in various scenarios where audience participation enhan
 - **City Hall Meetings & Public Polling** – Facilitates voting on different agendas in meetings or town halls.  
   - *Note:* The current system is designed for entertainment and does not include security features such as vote authentication or preventing multiple votes from the same user. Additional development would be required for secure decision-making scenarios.  
 
+
 ## How It Works  
 
  - The **MacOS Master Client** runs the slideshow, controlled by an operator.  
@@ -28,6 +30,8 @@ Crowd Slides can be used in various scenarios where audience participation enhan
  - Audience members vote using their phones, while live voting results are displayed on the slideshow.  
  - Once voting is complete, the slideshow continues along a path based on the majority decision.  
  - If the vote is tied, the operator manually decides the outcome.
+
+---
 
 ## System Architecture  
 
@@ -48,6 +52,7 @@ Crowd Slides consists of three main components:
 - Acts as the **communication bridge** between the MacOS client and HTML clients.  
 - Handles synchronization of slideshow state and live voting updates.  
 - Ensures all connected devices are updated instantly as votes are cast and slides progress.  
+
 
 
 ## Technologies
@@ -91,7 +96,6 @@ This setup is meant for **testing and experimenting** with the system to underst
 - Use the hosted demo HTML client to interact with the slideshow: [Crowd Slides Demo](https://crowdslides-demo.web.app/). The link is also available through the **QR Code** in the first slide of the demo presentation.  
 - Edit the JSON files (`slides.json`, `client_config.json`) to customize the slideshow.  
 
----
 
 ### **2. Advanced Setup (Your Own Database & HTML Hosting)**  
 If you want a **stable and private setup**, you **must** set up your **own Firebase database** and **host your own HTML client**, as the client must connect to the correct database.  
@@ -101,20 +105,20 @@ This setup is recommended for users who:
 - Need to **customize the HTML client** beyond what the hosted version allows.  
 - Want full control over the **database, settings, and hosting**.  
 
----
+
 
 #### **Step 1: Set Up Your Own Firebase Database** *(Has a free tier, no payments required.)*  
 - Go to [Firebase Console](https://console.firebase.google.com/) and create a new project.  
 - Enable Firebase **Realtime Database**.  
 
----
+
 
 #### **Step 2: Configure MacOS <-> Database Connection**  
 - In Firebase Console **Project Settings**, add an **Apple app**.  
 - The **Bundle ID** must match CrowdSlides **MacOS app’s Bundle ID** in Xcode.  
 - Download the `GoogleService-Info.plist` file and **replace** it in the **Xcode project**.  
 
----
+
 
 #### **Step 3: Configure and Deploy HTML Client <-> Database Connection**  
 - In Firebase Console **Project Settings**, add a **Web App**.  
@@ -126,7 +130,7 @@ This setup is recommended for users who:
    - **"Deploy to Firebase Hosting"** step to upload your HTML client.  
 - If you are using **another web server**, deploy the HTML client there.  
 
----
+
 
 #### **Step 4: Hosting the HTML Client Locally (Optional)**  
 If you want to **host the HTML client locally** on a simple web server, use **Python**:  
@@ -147,7 +151,7 @@ If you want to **host the HTML client locally** on a simple web server, use **Py
     ```
     *(Example: `http://192.168.1.3:8000`)*  
 
----
+
 
 #### **Step 5: Update QR Code in the Slideshow**  
 - Replace the **QR Code image** in the **Intro Slide** with a new one that redirects to your HTML client (cloud hosted or local).  
@@ -254,6 +258,8 @@ All assets are stored in an **`assets`** folder (**case-sensitive**). Inside thi
 
 - **In a Release Build:**  
   - The `assets` folder should be placed in the **same directory** as the `.app` file.
+
+---
 
 ## License  
 
