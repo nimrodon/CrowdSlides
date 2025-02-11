@@ -268,7 +268,7 @@ All assets are stored in an **`assets`** folder (**case-sensitive**). Inside thi
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License**.  
 
-- ✅ You may use, modify, and share this project for **personal and educational purposes** as long as you **credit the author**.  
+- ✅ You may use, modify and share this project for **personal and educational purposes** as long as you **credit the author**.  
 - 🚫 **Commercial use is strictly prohibited** without explicit permission.  
 - 📩 **For commercial use inquiries, please contact nyizhar@gmail.com**.
 
